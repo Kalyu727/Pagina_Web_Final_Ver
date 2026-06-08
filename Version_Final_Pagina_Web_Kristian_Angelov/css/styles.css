@@ -128,7 +128,10 @@ ul.listaprotocolos li:hover {
     transform: scale(1.05);
     background-color: #b2ebf2;
 }
-
+#otros:hover {
+    transform: scale(1.05);
+    background-color: #f2b2b2;
+}
 
 div ul li a:hover {
     color: white;
