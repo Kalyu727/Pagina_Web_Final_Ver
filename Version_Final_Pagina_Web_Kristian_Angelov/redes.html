@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div>
+            <h1>Redes y Sistemas Operativos</h1>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="activo">Redes</a></li>
+                <li><a href="sistemas.html">Sistemas Operativos</a></li>
+                <li><a href="practicas.html">Prácticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero-video">
+        <video autoplay muted loop class="hero-video">
+            <source src="./img/videohero.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+    </div>
+
+    <main>
+        <div class="contenedor">
+            <h2>Redes de ordenadores</h2>
+
+            <p>En esta sección aprenderás los conceptos fundamentales de las redes de ordenadores.</p>
+
+            <div class="bloque">
+                <h3>Topologías de Red</h3>
+                <p>Una topología de red describe cómo se conectan física o lógicamente los dispositivos dentro
+                    de una red. Define la forma, estructura y el modo en que circulan los datos entre los nodos y
+                    existen varios tipos, (véase bus, anillo, malla, estrella...). La más
+                    común actualmente es la topología de árbol o estrella ampliada ya que la de malla resulta muy
+                    costosa y
+                    tanto la de bus como la de anillo están en desuso.</p>
+                <img src="./img/diagramadered.jpg" alt="diagrama" class="redesytodalapesca">
+            </div>
+
+            <div class="bloque">
+                <h3>Modelo OSI y TCP/IP</h3>
+                <p>Estos son los modelos que explican como la información navega por internet. Mientras que el modelo
+                    OSI es una
+                    estructura teórica que describe cómo se comunican los sistemas en una red, no se usa tal
+                    cual en la práctica, pero resulta útil para entender y organizar las funciones de red. Lo que se usa
+                    en la práctica es el modelo TCP/IP, compuesto por 4 capas en lugar de 7, cada una utilizando sus
+                    respectivos protocolos.</p>
+                <img src="./img/osi.jpg" alt="osi" class="redesytodalapesca">
+            </div>
+
+            <div class="bloque">
+                <h3>Direcciones IP y Subredes</h3>
+                <p>Cómo se asignan direcciones lógicas, máscaras de red y cómo dividir redes. Una dirección IP
+                    identifica cada dispositivo de una red y las subredes permiten
+                    dividir una red
+                    grande en partes más pequeñas tomando bits prestados a la parte del host, mejorando la organización y el rendimiento. Se definen mediante una
+                    máscara de red, que indica cuántos bits pertenecen a la parte de red y cuántos a los hosts.
+
+                    Por ejemplo, la máscara 255.255.255.0 es una /24 o clase C y divide una red en grupos de 256
+                    direcciones, donde la primera
+                    es la subred y la última el broadcast.</p>
+                <img src="./img/divisionredes.png" alt="divisionredes" class="redesytodalapesca">
+            </div>
+
+            <div class="bloque">
+                <h3>Dispositivos de Red</h3>
+                <p>Switches y routers y su función en la red. Un switch es un dispositivo que conecta varios equipos
+                    dentro de la misma red local (LAN) cuya
+                    función principal es recibir tramas y enviarlas solo al dispositivo correcto, utilizando la tabla de
+                    direcciones
+                    MAC y empleando el protocolo ARP cuando se desconoce la dirección MAC correspondiente a una IP.</p>
+                <img src="./img/dispositivos.jpg" alt="dispositivos" class="redesytodalapesca">
+            </div>
+
+            <div class="bloque">
+                <h3>Protocolos Importantes</h3>
+                <ul class="listaprotocolos">
+                    <li>DHCP (puertos 67 y 68)</li>
+                    <li>DNS (puerto 53)</li>
+                    <li>HTTP (puerto 80)</li>
+                    <li>HTTPS (puerto 443 del TCP)</li>
+                    <li>FTP (puertos 20 y 21)</li>
+                    <li>SSH (puerto 22)</li>
+                    <li>Otros protocolos esenciales</li>
+                </ul>
+                <img src="./img/protocolos.jpg" alt="protocolos" class="redesytodalapesca">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Redes y Sistemas Operativos · Proyecto web</p>
+    </footer>
+
+</body>
+
+</html>
